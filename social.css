@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+
+body {
+background-color: white;
+display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 100vh;
+	 font-family: 'League Spartan', sans-serif;
+	 
+	 background-color: hsl(0, 0%, 98%);
+ 
+}
+
+
+
+.products {
+	display: flex;
+	height: 200px;
+	width: 900px;
+
+
+}
+
+.users {
+	height: 180px;
+width: 410px;
+
+}
+
+.users header {
+color: hsl(300, 43%, 22%);
+font-size: 30px;
+font-weight: bold;
+height: 90px;
+width: 270px;
+}
+
+.users p {
+	font-size: 15px;
+	height: 60px;
+	width: 280px;
+	opacity: 70%;
+}
+
+.star1 {
+	height: 35px;
+	width: 350px;
+	background-color: hsl(300, 24%, 96%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.rated {
+	font-size: 12px;
+	font-weight: bold;
+	color: hsl(300, 43%, 22%);
+}
+
+
+.stars {
+	height: 180px;
+	width: 290px;
+	
+
+}
+
+
+
+.container {
+
+background-color: hsl(300, 43%, 22%);
+height: 180px;
+width: 290px;
+border-radius: 5px;
+text-align: center;
+
+
+}
+
+.images {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	height: 200px;
+	width: 900px;
+}
+
+.top img {
+	height: 40px;
+	width:  40px;
+	border-radius: 50px;
+}
+
+.top_img {
+	display: flex;
+
+	
+}
+
+.quote {
+	color: hsl(0, 0%, 100%);
+	text-align: left;
+	margin: 12px 12px;
+	font-size: 13px;
+}
+
+.note header {
+	color: hsl(0, 0%, 100%);
+	font-size: 13px;
+}
+
+.note p {
+	opacity: 50%;
+	color: hsl(0, 0%, 100%);
+	margin-top: 0px;
+	font-size: 13px;
+	
+}
+
+
+.note {
+	margin-top: 23px;
+	margin-left: 15px;
+}
+
+
+.stars2 {
+	margin-left: 40px;
+}
+
+
+.stars3 {
+	margin-left: 60px;
+}
+
+.container2 {
+	margin-top: 20px;
+}
+
+.container3 {
+	margin-top: 40px;
+}
+
+
+.top{
+	margin-top: 23px;
+	margin-left: 10px;
+}
+
+
+
+@media (maxwidth: 1440px)  {
+
+	.container {
+		width: 100%;
+	}
+
+}
